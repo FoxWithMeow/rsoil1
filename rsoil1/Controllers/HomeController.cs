@@ -15,5 +15,14 @@ namespace rsoil1.Controllers
         {
             return "Meow";
         }
+
+        [HttpGet("mult")]
+        public ActionResult<int> Get(int? a, int? b)
+        {
+            if (a == null || b == null)
+                return 0;
+            else
+                return a * b;
+        }
     }
 }
