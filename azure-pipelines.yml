@@ -50,4 +50,4 @@ steps:
   displayName: 'Publish Artifact'
   inputs:
     PathtoPublish: 'D:\a\1\a'
-    ArtifactName: '#/2378513/drop'
+    ArtifactName: 'drop'
